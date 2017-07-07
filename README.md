@@ -1,2 +1,2 @@
 # EasyRepet
-Depot de l'application mobile et web de EasyRepet
+Depot de l'application et web de EasyRepet
