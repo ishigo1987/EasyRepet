@@ -1,0 +1,25 @@
+#updateMessage
+ {
+  color:#fff;
+  padding:15px;
+  height:50px;
+  box-sizing:border-box;
+  text-align:center;
+  background:var(--theme-color);
+  display:none;
+ }
+#updateMessage span
+ {
+  display:inline-block;
+ }
+#updateMessage a
+ {
+  text-decoration:none;
+  float:right;
+  color:#1FB5F6;
+  font-weight:bold;
+ }
+#wrapperhtml
+ {
+  display:none;
+ }

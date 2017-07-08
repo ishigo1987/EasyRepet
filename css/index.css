@@ -1,6 +1,8 @@
 :root
 {
-  --theme-color:#3e9e5e;
+  --theme-color:#1565c0;
+  --header_footer_theme:#fafafa;
+  --secondary_text_color:#757575;
 }
 body, html
  {
@@ -9,7 +11,83 @@ body, html
    padding:0;
    margin:0;
    overflow:hidden;
-   font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Zilla Slab', serif;
    text-rendering: optimizeLegibility;
    font-feature-settings:"kern";
+ }
+
+/******************************** ZONE HEADER FOOTER *******************************************/
+header, footer
+ {
+   background:var(--header_footer_theme);
+   height:50px;
+ 	 padding:10px;
+ 	 padding-top:13px;
+ 	 padding-left:50px;
+ 	 padding-right:50px;
+ 	 box-sizing:border-box;
+   color:var(--theme-color);
+ }
+#logo
+ {
+   width:100px;
+   height:24px;
+ }
+#user_area
+ {
+   float:right;
+   margin-top:2px;
+ }
+#user_area span
+ {
+   margin-left:20px;
+   cursor:pointer;
+   padding:10px;
+   border-radius:3px;
+   transition:background ease 0.3s;
+   text-align:center;
+ }
+#user_area span:hover
+ {
+   background:var(--theme-color);
+   color:#fff;
+ }
+/************************************** FOOTER **************************************/
+footer
+ {
+   padding:0;
+   padding-top:1px;
+ }
+#further_information ul li
+ {
+   display:inline-block;
+   list-style:none;
+   color:var(--secondary_text_color);
+   cursor:pointer;
+   margin-left:15px;
+ }
+#further_information ul li:hover
+ {
+   color:var(--theme-color);
+ }
+#social_network
+ {
+   float:right;
+   margin-top:-53px;
+   margin-right:50px;
+ }
+#social_network ul li
+ {
+   display:inline-block;
+   list-style:none;
+   color:var(--secondary_text_color);
+   margin-right:5px;
+ }
+#social_network ul li a svg
+ {
+   vertical-align:bottom;
+ }
+#social_network ul li a svg path:hover
+ {
+   fill:var(--theme-color);
  }

@@ -74,6 +74,12 @@ document.addEventListener("DOMContentLoaded", () =>
    {
      // Le test de version de navigateur a été passé avec succes on peut initialiser les fonctions internes de Saar.com
      _displayHtmlBody();
+      // La fonction _indexHeader() se trouve dans le fichier js/uiComposite/indexHeader.js
+     _indexHeader();
+     // La fonction _handleSlider() se trouve dans le fichier js/slider.js
+     _handleSlider();
+     // La fonction _indexFooter se trouve dans le fichier js/uiComposite/indexFooter.js
+     _indexFooter();
    }
   // Fonction qui rends visible le contenu HTML
   function _displayHtmlBody()

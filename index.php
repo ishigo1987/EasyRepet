@@ -9,18 +9,26 @@
   <meta name="description" content="Plateforme de presentation et recherche de répétiteurs en ligne a Yaoundé">
   <meta name="author" content="Nguetseng Stephane">
   <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
- <!--  <link rel="stylesheet" href="https://cdn.rawgit.com/ishigo1987/assetsHomeFood/f9905365/css/index.css" media="all">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/ishigo1987/assetsHomeFood/f9905365/css/mobile.css" media="all"> -->
   <link rel="stylesheet" href="css/index.css" media="all">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="css/slider.css" media="all">
+  <link rel="stylesheet" href="css/navigator_control.css" media="all">
+  <link rel="stylesheet" href="css/animation.css" media="all">
+  <link rel="stylesheet" href="css/popup.css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
 </head>
 <body id="body" class="mobile-body">
  <!-- bloc de mise a jour -->
 <div id="updateMessage"></div>
 <section id="wrapperhtml">
- <header>
- </header>
+ <header></header>
+ <section id="wrapperSlider"></section>
+ <footer></footer>
  </section>
  </body>
   <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/uiComposite/indexHeader.js"></script>
+  <script type="text/javascript" src="js/uiComposite/indexFooter.js"></script>
+  <script type="text/javascript" src="js/widgets/slider.js"></script>
+  <script type="text/javascript" src="js/widgets/popup.js"></script>
+  <script type="text/javascript" src="js/helpers_public_functions/closePopup.js"></script>
  </html>
