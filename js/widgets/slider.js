@@ -16,7 +16,7 @@ function _handleSlider()
           <div id="slider2" class="slide">
            <p id="text1" class="wrapper_text">
              <span id="first_text">FOURNIR UNE ASSISTANCE AUX PARENTS</span>
-             <span id="second_text">EasyRepet fournit aux parents des r&eacute;p&eacute;titeurs triés sur le volet pour assurer a leurs enfants un succes total en fin d'ann&eacute;e.</span>
+             <span id="second_text">EasyRepet fournit aux parents des r&eacute;p&eacute;titeurs triÃ©s sur le volet pour assurer a leurs enfants un succes total en fin d'ann&eacute;e.</span>
             </p>
           </div>
           <div id="slider3" class="slide">

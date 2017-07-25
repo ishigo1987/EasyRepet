@@ -26,19 +26,10 @@ function _indexHeader()
         if(e.target !== e.currentTarge)
          {
            let targetId = e.target.id;
-           let execPopup;
-           let createPopupContain;
            if(targetId === "connexion")
             {
-              createPopupContain = `
-                 <div id="intro_connection_text">Connectez vous sur votre espace utilisateur EasyRepet</div>
-                 <input type="tel" id="phone_user_connection" placeholder="Entrez votre numéro de telephone" />
-                 <input type="password" id="phone_user_connection" placeholder="Entrez votre mot de passe" />
-                 <span id="forgotten_password">Mot de passe oubli&eacute;?</span>
-                 <span id="connection_btn">Connexion</span>
-               `;
-              // la fonction Popup(params) se trouve dans le fichier js/widgets/popup.js
-              execPopup = new Popup("Connexion", createPopupContain,null);
+              // La fonction handleConnectionToEasyRepet() se trouve dans le fichier modules/connection.js
+              handleConnectionToEasyRepet();
             }
            else if(targetId === "inscription")
             {

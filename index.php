@@ -29,6 +29,7 @@
   <script type="text/javascript" src="js/uiComposite/indexHeader.js"></script>
   <script type="text/javascript" src="js/uiComposite/indexFooter.js"></script>
   <script type="text/javascript" src="js/widgets/slider.js"></script>
+  <script type="text/javascript" src="js/modules/connection.js"></script>
   <script type="text/javascript" src="js/widgets/popup.js"></script>
   <script type="text/javascript" src="js/helpers_public_functions/closePopup.js"></script>
  </html>
