@@ -1,3 +1,5 @@
+// Variable Globale pour s'assurer que la snackbar ne s'excecute pas plusieurs fois
+let allowSnackbar = true;
 document.addEventListener("DOMContentLoaded", () =>
  {
    "use strict";

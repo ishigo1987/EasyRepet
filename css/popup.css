@@ -52,7 +52,6 @@
     float: right;
     width: 24px !important;
     height: 24px !important;
-    display: inline-block;
     background: url(../icons/closePopup.svg) !important;
     background-position: center !important;
     background-size: cover !important;
@@ -66,12 +65,20 @@
  }
 #wrapperBodyPopup
  {
-    padding:20px !important;
     padding-top:0px;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+    transition:transform ease 0.3s;
+    width:100%;   
  }
-#wrapperBodyPopup #intro_connection_text
+#wrapperBodyPopup .first_item_inside_popup
+ {
+   flex-shrink:0;
+   width:100%;
+   padding:20px;
+   box-sizing:border-box;
+ }
+#wrapperBodyPopup #intro_connection_text, #wrapperBodyPopup #intro_inscription_text
  {
      margin-top:10px;
  }
@@ -111,7 +118,7 @@
     margin-top:10px;
     cursor:pointer;
  }
-#connection_btn
+#connection_btn, #inscription_btn
  {
      margin-top:40px;
      border:none;
@@ -125,10 +132,15 @@
      cursor:pointer;
      box-sizing:border-box;
  }
-/********************************* Styles wrapper popup connexion ************************************/
-#intro_connection_text
+/********************************* Styles wrapper popup connexion and a little bit of inscription ************************************/
+#intro_connection_text,#intro_inscription_text
  {
      font-size:1.1rem;
+ }
+#area_connection, #area_inscription
+ {
+   display:flex;
+   flex-direction:column;
  }
 /*Media queries de la Popup*/
 @media screen and (max-device-height:1023px)

@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/navigator_control.css" media="all">
   <link rel="stylesheet" href="css/animation.css" media="all">
   <link rel="stylesheet" href="css/popup.css" media="all">
+  <link rel="stylesheet" href="css/snackbar.css" media="all">
   <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
 </head>
 <body id="body" class="mobile-body">
@@ -29,7 +30,9 @@
   <script type="text/javascript" src="js/uiComposite/indexHeader.js"></script>
   <script type="text/javascript" src="js/uiComposite/indexFooter.js"></script>
   <script type="text/javascript" src="js/widgets/slider.js"></script>
+  <script type="text/javascript" src="js/modules/inscription.js"></script>
   <script type="text/javascript" src="js/modules/connection.js"></script>
   <script type="text/javascript" src="js/widgets/popup.js"></script>
+  <script type="text/javascript" src="js/widgets/snackbar.js"></script>
   <script type="text/javascript" src="js/helpers_public_functions/closePopup.js"></script>
  </html>

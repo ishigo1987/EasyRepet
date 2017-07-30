@@ -1,0 +1,71 @@
+/*Style de la Snackbar*/
+#snackbar
+ {
+   position:absolute;
+   left:15px;
+   bottom:15px;
+   background:rgba(42,43,44,0.9);
+   color:#fff;
+   padding:15px;
+   border-radius:3px;
+   transform:scale3d(0,0,0);
+   font-size:0.8rem;
+   z-index:9999999999;
+   transition:transform ease 0.3s !important;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+   overflow:hidden;
+ }
+#snackbarImg
+ {
+   margin-right:3px;
+   vertical-align:top !important;
+   display:inline-block;
+   width:16px;
+   height:16px;
+ }
+#actionSnackbar
+ {
+
+   text-align: right;
+   color: #1e88e5;
+   margin-left: 50px;
+   font-size: .9rem;
+   cursor: pointer;
+   display: inline-block !important;
+ }
+/* Animation fenetre modale de la gallerie */
+.animated_picture {
+  -webkit-animation-duration: .2s;
+  animation-duration: .2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}

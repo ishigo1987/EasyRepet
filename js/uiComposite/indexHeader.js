@@ -33,7 +33,8 @@ function _indexHeader()
             }
            else if(targetId === "inscription")
             {
-
+              // La fonction handleInscriptionToEasyRepet() se trouve dans le fichier modules/inscription.js
+              handleInscriptionToEasyRepet();
             }
            else
             {
